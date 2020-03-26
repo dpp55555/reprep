@@ -79,3 +79,22 @@ header nav li:hover:after {
     font-size: 11px;
     line-height: 16px;
 }
+
+.main_section {
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+.main_section h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main_section h2:after{
+    content: "";
+    display: block;
+    background-color: #b5a263;
+    height: 3px;
+    width: 60px;
+    margin: auto;
+    margin-top: 20px;
+}
