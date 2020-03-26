@@ -58,3 +58,24 @@ header nav li:after {
 header nav li:hover:after {
     opacity: 1;
 }
+
+.after_header_section_background {
+    background: url('../img/after_header_section_background_02.png');
+}
+
+.after_header_section_background .container {
+    padding: 70px 0;
+    color: white;
+}
+
+.after_header_section_background .container h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.after_header_section_background .container p {
+    max-width: 630px;
+    font-size: 11px;
+    line-height: 16px;
+}
