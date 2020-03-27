@@ -98,6 +98,11 @@ header nav li:hover:after {
     margin: auto;
     margin-top: 20px;
 }
+
+.main_section div {
+    margin-bottom: 30px;
+}
+
 .employee_info{
     display: inline-block;
     max-width: 247px;
@@ -138,4 +143,16 @@ header nav li:hover:after {
 
 .employee_contact {
     float: right;
+}
+
+.show_all {
+    border: black 1px solid;
+    border-radius: 180px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    display: block;
+    max-width: 129px;
+    padding: 14px 0;
+    color: #24282f;
 }
