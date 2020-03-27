@@ -81,12 +81,12 @@ header nav li:hover:after {
 }
 
 .main_section {
-    padding-top: 120px;
-    padding-bottom: 20px;
+    padding: 120px 55px 20px;
 }
 .main_section h2{
     text-align: center;
     text-transform: uppercase;
+    margin: 28px;
 }
 
 .main_section h2:after{
@@ -97,4 +97,45 @@ header nav li:hover:after {
     width: 60px;
     margin: auto;
     margin-top: 20px;
+}
+.employee_info{
+    display: inline-block;
+    max-width: 247px;
+    margin: 0 40px;
+}
+
+.employee_info:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.employee_info img{
+    max-width: 100%;
+}
+
+.employee_info .foto{
+    margin-bottom: 22px;
+
+}
+
+.employee_name{
+    font-size: 13px;
+    color: black;
+    text-transform: uppercase;
+
+}
+.employee_position{
+    font-size: 11px;
+    color: #b5a263;
+    text-transform: capitalize;
+
+}
+
+.employee_description {
+    float: left;
+}
+
+.employee_contact {
+    float: right;
 }
