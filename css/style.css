@@ -43,6 +43,7 @@ header nav li a {
     text-align: center;
     color: white;
     padding: 0 15px 32px;
+    font-size: 11px;
 }
 
 header nav li:after {
@@ -105,7 +106,7 @@ header nav li:hover:after {
 
 .employee_info{
     display: inline-block;
-    max-width: 247px;
+    width: 247px;
     margin: 0 40px;
 }
 
@@ -143,6 +144,22 @@ header nav li:hover:after {
 
 .employee_contact {
     float: right;
+}
+
+.employee_contact a {
+    display: inline-block;
+    background-color: #dedede;
+    border-radius: 50%;
+    font-size: 14px;
+    color: white;
+    width: 28px;
+    text-align: center;
+    line-height: 28px;
+    transition: 0.7s;
+}
+
+.employee_contact a:hover {
+    background-color: #b5a263;
 }
 
 .show_all {
